@@ -14,3 +14,7 @@ aside {
 h1 {
   text-align: center;
 }
+
+.small {
+  font-size: 12px;
+}
