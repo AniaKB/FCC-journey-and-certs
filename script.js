@@ -8,23 +8,28 @@ function toggle() {
 }
 
 let JSAlgorithms = [
-pyramindGenerator {
+pyramindGenerator = {
   count: 118,
   finished: 118
 },
-gradebookApp {
+gradebookApp = {
   count: 4,
   finished: 4
 },
-rpg {
+rpg = {
   count: 173,
   finished: 173
 },
+backgroundColorChanger = {
+  count: 8,
+  finished: 8
+},
+calorieCounter = {
+  count: 96,
+  finished: 75
+}
 
-const backgroundColorChangerCount = 8;
-let finishedBackgroundColorChanger = 8;
-const calorieCounterCount = 96;
-let finishedCalorieCounter = 75;
+
 const rpsCount = 6;
 let finishedRps = 6;
 const musicplayerCount = 99;
