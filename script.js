@@ -27,13 +27,17 @@ backgroundColorChanger = {
 calorieCounter = {
   count: 96,
   finished: 75
+},
+rps = {
+  count: 6,
+  finished: 6
+},
+musicplayer = {
+  count: 99,
+  finished: 20
+},
+palindromeChecker = {
+  count: 1,
+  finished: 0
 }
-
-
-const rpsCount = 6;
-let finishedRps = 6;
-const musicplayerCount = 99;
-let finishedMusicplayer = 20;
-const palindromeCheckerCount = 1;
-let finishedPalindromeChecker = 0;
 ];
