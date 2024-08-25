@@ -51,5 +51,17 @@ footballTeamCards = {
 toDoApp = {
   count: 65,
   finished: 0
+},
+binaryConverter = {
+  count: 109,
+  finished: 0
+},
+romanNumeralConverter = {
+  count: 1,
+  finished: 0
+},
+spamFilter = {
+  count: 35,
+  finished: 5
 }
 ];
