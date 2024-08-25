@@ -39,5 +39,17 @@ musicplayer = {
 palindromeChecker = {
   count: 1,
   finished: 0
+},
+dateFormatter = {
+  count: 29,
+  finished: 29
+},
+footballTeamCards = {
+  count: 47,
+  finished: 47
+},
+toDoApp = {
+  count: 65,
+  finished: 0
 }
 ];
