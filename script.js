@@ -1,5 +1,5 @@
 function toggle() {
-  let x = document.getElementById("cert");
+  let x = document.getElementByClassName("cert");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
