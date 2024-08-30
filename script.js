@@ -63,5 +63,9 @@ romanNumeralConverter = {
 spamFilter = {
   count: 35,
   finished: 35
+},
+numberSorter = {
+  count: 45,
+  finished: 4
 }
 ];
