@@ -62,6 +62,6 @@ romanNumeralConverter = {
 },
 spamFilter = {
   count: 35,
-  finished: 25
+  finished: 35
 }
 ];
