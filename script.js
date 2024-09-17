@@ -34,7 +34,7 @@ rps = {
 },
 musicplayer = {
   count: 99,
-  finished: 20
+  finished: 27
 },
 palindromeChecker = {
   count: 1,
