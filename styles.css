@@ -8,7 +8,8 @@ aside {
   padding: 8px;
   border-color: black;
   border-width: 2px;
-  background-color: #eeee;
+  border-radius: 5px;
+  background-color: #42495fee;
 }
 
 h1 {
