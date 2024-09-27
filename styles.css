@@ -27,3 +27,7 @@ h1 {
 .sub {
   font-size: 8px;
 }
+
+ul {
+  list-style-type: none;
+}
