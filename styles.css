@@ -20,7 +20,7 @@ h1 {
   font-size: 12px;
 }
 
-#cert {
+.cert {
   display: none;
 }
 

@@ -29,9 +29,9 @@
 
   <h2>Free Code Camp</h2>
   <details><summary>Certifications</summary>
-    <h3 onclick="toggle"class="cert"><input type="checkbox" class="cert" name="RWDcert" value="pgenerator" checked><label for="RWDcert">Responsive Web Design (Legacy)</label></h3>
-    <h3 onclick="toggle" class="cert"><input type="checkbox" class="cert" name="RWDcert" value="pgenerator"><label for="RWDcert">Javascript Algorithms and Data Structures</label></h3>
-      <ul class="cert">
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator" checked><label for="RWDcert">Responsive Web Design (Legacy)</label></h3>
+    <h3 id="RWDcerts"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert">Javascript Algorithms and Data Structures</label></h3>
+      <ul class="cert" id="RWDcerts">
         <li id="pyramid-generator"><input type="checkbox" class="sub" name="pyramid-generator" value="pgenerator" checked><label for="pyramid-generator">Pyramid Generator</label></li>
         <li id="gradebook-app"><input type="checkbox" class="sub" name="gradebook-app" value="gradebook-app" checked ><label for="gradebook-app">Gradebook App</label></li> 
         <li id="rpg"><input type="checkbox" class="sub" name="rpg" value="rpg" checked ><label for="rpg">Role Playing Game</label></li>
@@ -56,38 +56,33 @@
         <li id=""><input type="checkbox" class="sub" name="forumLeaderboard" value="Bike"><label for="forumLeaderboard"></label>FCC Forum Leaderboard</label></li>
         <li id=""><input type="checkbox" class="sub" name="pokemon-seach-app" value="Bike"><label for="pokemon-seach-app"></label>*Pokemon Search App Project</label></li>
       </ul>
-    <h3 class="cert" onclick="toggle">Front End Development Libraries</h3>
+    <h3 class="cert" onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Front End Development Libraries</h3>
       <ul class="cert">
         <li id=""></li><input type="checkbox" class="sub" name="bootstrap" value="bootstrap" checked><label for="bootstrap">Bootstrap</label></li>
         <li id=""></li><input type="checkbox" class="sub" name="jquery" value="jquery" checked><label for="jquery">JQuery</label></li>
         <li id=""></li><input type="checkbox" class="sub" name="sass" value="sass" checked><label for="sass">SASS</label></li>
         <li id=""></li><input type="checkbox" class="sub" name="react" value="react"><label for="react">React</label></li>
       </ul>
-    <h3 class="cert" onclick="toggle">Data Visualization Certification</h3>
-    <h3 class="cert" onclick="toggle">Relational Database Certification</h3>
-    <h3 class="cert" onclick="toggle">Back End Development and APIs</h3>
-    <h3 class="cert" onclick="toggle">Quality Assurance</h3>
-    <h3 class="cert" onclick="toggle">Scientific Computing with Python</h3>
-    <h3 class="cert" onclick="toggle">Data Analysis with Python</h3>
-    <h3 class="cert" onclick="toggle">Information Security</h3>
-    <h3 class="cert" onclick="toggle">Machine Learning with Python</h3>
-    <h3 class="cert" onclick="toggle">College Algebra with Python</h3>
-    <h3 class="cert">Foundational C# with Microsoft</h3>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#" checked><label for="first-C#">Write Your First Code Using C#</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="c#-console" value="first-C#"><label for="c#-console">Create and Run Simple C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="logicC#" value="logicC#"><label for="logicC#">Add Logic to C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="variableData" value="variableData"><label for="variableData">Work with Variable Data in C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="methods" value="methods"><label for="methods">Create Methods in C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="debug-C#" value="debug-C#"><label for="debug-C#">Debug C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="foundational-C#" value="foundational-C#"><label for="foundational-C#">Foundational C# with Microsoft Certification Exam</label>
-        <ul id=""></ul>
-    <h3 class="cert">Legacy Javascript Algorithms and Data Structures</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Data Visualization Certification</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Relational Database Certification</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Back End Development and APIs</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Quality Assurance</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Scientific Computing with Python</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Data Analysis with Python</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Information Security</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Machine Learning with Python</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>College Algebra with Python</h3>
+    <h3><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Foundational C# with Microsoft</h3>
+      <ul class="cert">
+        <li id=""><input type="checkbox" class="sub" name="first-C#" value="first-C#" checked><label for="first-C#">Write Your First Code Using C#</label></li>
+        <li id=""><input type="checkbox" class="sub" name="c#-console" value="first-C#"><label for="c#-console">Create and Run Simple C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="logicC#" value="logicC#"><label for="logicC#">Add Logic to C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="variableData" value="variableData"><label for="variableData">Work with Variable Data in C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="methods" value="methods"><label for="methods">Create Methods in C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="debug-C#" value="debug-C#"><label for="debug-C#">Debug C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="foundational-C#" value="foundational-C#"><label for="foundational-C#">Foundational C# with Microsoft Certification Exam</label></li>
+      </ul>
+    <h3><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Legacy Javascript Algorithms and Data Structures</h3>
 
   </details>
 
@@ -96,6 +91,6 @@
     </details>
   <h2>Code Academy</h2>
   <details><summary>Certifications</summary>
-    <input type="checkbox" class"sub" name="learnJS" value="learnJS"><label for="learnJS">Learn Javascript</label>
+    <h3><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Learn Javascript</label></h3>
   </details>
 </body>

@@ -1,11 +1,17 @@
-function toggle() {
-  let x = document.getElementByClassName("cert");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+const headings = document.querySelectorAll('h3');
+
+headings.forEach(heading => {
+  heading.addEventListener('click', function() {
+    const contentId = heading.id;
+    const content = document.getElementById(contentId);
+
+    if (content.style.display === 'none' || content.style.display === '') {
+      content.style.display = 'block';
+    } else {
+      content.style.display = 'none';
+    }
+  })
+})
 
 let JSAlgorithms = [
 pyramindGenerator = {
