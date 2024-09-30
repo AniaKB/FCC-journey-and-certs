@@ -21,7 +21,7 @@ h1 {
 }
 
 .cert {
-  display: none;
+  display: block;
 }
 
 .sub {
