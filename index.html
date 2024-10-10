@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 </head>
 <body>
   <h1>My Coding Journey and Certs</h1>
@@ -18,6 +19,7 @@
       <li>Javascript</li>
         <ul>
           <li>Vue</li>
+          <li>React</li>
         </ul>
       <li>C#</li>
       <li>python</li>
@@ -27,79 +29,74 @@
 
   <h2>Free Code Camp</h2>
   <details><summary>Certifications</summary>
-    <h3 onclick="toggle">Responsive Web Design (Legacy)</h3>
-    <h3 onclick="toggle">Javascript Algorithms and Data Structures</h3>
-      <div id="cert">
-        <input type="checkbox" class="sub" name="pyramid-generator" value="pgenerator" checked><label for="pyramid-generator">Pyramid Generator</label></div>
-          <ul id="pyramid-generator"></ul>
-        <input type="checkbox" class="sub" name="gradebook-app" value="gradebook-app" checked ><label for="gradebook-app">Gradebook App</label>
-          <ul id="gradebook-app"></ul>
-        <input type="checkbox" class="sub" name="rpg" value="rpg" checked ><label for="rpg">Role Playing Game</label>
-          <ul id="rpg"></ul>
-        <input type="checkbox" class="sub" name="color-changer" value="color-changer" checked><label for="color-changer"></label>Background Color Changer</label>
-          <ul id="color-changer"></ul>
-        <input type="checkbox" class="sub" name="calorie-counter" value="Bike"><label for="calorie-counter"></label>Calorie Counter</label>
-          <ul id="calorie-counter"></ul>
-        <input type="checkbox" class="sub" name="rps" value="Bike"><label for="rps"></label>Rock Paper Scissors game</label>
-          <ul id="rps"></ul>
-        <input type="checkbox" class="sub" name="musicPlayer" value="Bike"><label for="musicPlayer"></label>Music Player</label>
-          <ul id="musicPlayer"></ul>
-        <input type="checkbox" class="sub" name="palindromeChecker" value="Bike"><label for="palindromeChecker"></label>*Palindrome Checker</label>
-          <ul id="palindromeChecker"></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>Football Team Cards</label>
-          <ul id="footballTeamCards"></ul>
-        <input type="checkbox" class="sub" name="todoApp" value="Bike"><label for="todoApp">Todo App</label>
-          <ul id="todoApp"></ul>
-        <input type="checkbox" class="sub" name="romanNumeralConverter" value="Bike"><label for="romanNumeralConverter"></label>*Roman Numeral Converter Project</label>
-          <ul id="romanNumeralConverter"></ul>
-        <input type="checkbox" class="sub" name="spamFilter" value="Bike"><label for="spamFilter"></label>Spam Filter</label>
-          <ul id="spamFilter"></ul>
-        <input type="checkbox" class="sub" name="statisticsCalculator" value="Bike"><label for="statisticsCalculator"></label>Statistics Calculator</label>
-          <ul id="statisticsCalculator"></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>Spreadsheet</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>*Telephone Number Validator</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>Shopping Cart</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>Platformer Game</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>Dice Game</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>*Cash Register</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>FCC Authors Page</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>FCC Forum Leaderboard</label>
-          <ul id=""></ul>
-        <input type="checkbox" class="sub" name="pyramid-generator" value="Bike"><label for="pyramid-generator"></label>*Pokemon Search App Project</label>
-          <ul id=""></ul>
-      </div>
-    <h3 id="cert" onclick="toggle">Front End Development Libraries</h3>
-    <h3 id="cert" onclick="toggle">Data Visualization Certification</h3>
-    <h3 id="cert" onclick="toggle">Relational Database Certification</h3>
-    <h3 id="cert" onclick="toggle">Back End Development and APIs</h3>
-    <h3 id="cert" onclick="toggle">Quality Assurance</h3>
-    <h3 id="cert" onclick="toggle">Scientific Computing with Python</h3>
-    <h3>Foundational C# with Microsoft</h3>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#" checked><label for="first-C#">Write Your First Code Using C#</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#"><label for="first-C#">Create and Run Simple C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#"><label for="first-C#">Add Logic to C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#"><label for="first-C#">Work with Variable Data in C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#"><label for="first-C#">Create Methods in C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#"><label for="first-C#">Debug C# Console Applications</label>
-        <ul id=""></ul>
-      <input type="checkbox" class="sub" name="first-C#" value="first-C#"><label for="first-C#">Foundational C# with Microsoft Certification Exam</label>
-        <ul id=""></ul>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator" checked><label for="RWDcert">Responsive Web Design (Legacy)</label></h3>
+    <h3 id="RWDcerts"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert">Javascript Algorithms and Data Structures</label></h3>
+      <ul class="cert" id="RWDcerts">
+        <li id="pyramid-generator"><input type="checkbox" class="sub" name="pyramid-generator" value="pgenerator" checked><label for="pyramid-generator">Pyramid Generator</label></li>
+        <li id="gradebook-app"><input type="checkbox" class="sub" name="gradebook-app" value="gradebook-app" checked ><label for="gradebook-app">Gradebook App</label></li> 
+        <li id="rpg"><input type="checkbox" class="sub" name="rpg" value="rpg" checked ><label for="rpg">Role Playing Game</label></li>
+        <li id="color-changer"><input type="checkbox" class="sub" name="color-changer" value="color-changer" checked><label for="color-changer"></label>Background Color Changer</label></li>
+        <li id="calorie-counter"><input type="checkbox" class="sub" name="calorie-counter" value="Bike" checked><label for="calorie-counter"></label>Calorie Counter</label></li>
+        <li id="rps"><input type="checkbox" class="sub" name="rps" checked><label for="rps"></label>Rock Paper Scissors game</label></li>
+        <li id="musicPlayer"><input type="checkbox" class="sub" name="musicPlayer" value="Bike"><label for="musicPlayer"></label>Music Player</label></li>
+        <li id="palindromeChecker"><input type="checkbox" class="sub" name="palindromeChecker" value="Bike"><label for="palindromeChecker"></label>*Palindrome Checker</label></li>
+        <li id="date-formatter"><input type="checkbox" class="sub" name="date-formatter" value="Bike" checked><label for="date-formatter"></label>Date Formatter</label></li>
+        <li id="footballTeamCards"><input type="checkbox" class="sub" name="pyramid-generator" value="Bike" checked><label for="pyramid-generator"></label>Football Team Cards</label></li>
+        <li id="todoApp"><input type="checkbox" class="sub" name="todoApp" value="Bike"><label for="todoApp">Todo App</label></li>
+        <li id="romanNumeralConverter"><input type="checkbox" class="sub" name="romanNumeralConverter" value="Bike"><label for="romanNumeralConverter"></label>*Roman Numeral Converter Project</label></li>
+        <li id="spamFilter"><input type="checkbox" class="sub" name="spamFilter" value="Bike" checked><label for="spamFilter"></label>Spam Filter</label></li>
+        <li id="statisticsCalculator"><input type="checkbox" class="sub" name="statisticsCalculator" value="Bike"><label for="statisticsCalculator"></label>Statistics Calculator</label></li>
+        <li id=""><input type="checkbox" class="sub" name="spreadsheet" value="Bike"><label for="spreadsheet"></label>Spreadsheet</label></li>
+        <li id=""><input type="checkbox" class="sub" name="telephoneNumberValidator" value="Bike"><label for="telephoneNumberValidator"></label>*Telephone Number Validator</label></li>
+        <li id=""><input type="checkbox" class="sub" name="shoppingCart" value="Bike"><label for="shoppingCart"></label>Shopping Cart</label></li>
+        <li id=""><input type="checkbox" class="sub" name="platformerGame" value="Bike"><label for="platformerGame"></label>Platformer Game</label></li>
+        <li id=""><input type="checkbox" class="sub" name="diceGame" value="Bike"><label for="diceGame"></label>Dice Game</label></li>
+        <li id=""><input type="checkbox" class="sub" name="cashRegister" value="Bike"><label for="cashRegister"></label>*Cash Register</label></li>
+        <li id=""><input type="checkbox" class="sub" name="AuthorsPage" value="Bike"><label for="AuthorsPage"></label>FCC Authors Page</label></li>
+        <li id=""><input type="checkbox" class="sub" name="forumLeaderboard" value="Bike"><label for="forumLeaderboard"></label>FCC Forum Leaderboard</label></li>
+        <li id=""><input type="checkbox" class="sub" name="pokemon-seach-app" value="Bike"><label for="pokemon-seach-app"></label>*Pokemon Search App Project</label></li>
+      </ul>
+    <h3 class="cert" onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Front End Development Libraries</h3>
+      <ul class="cert">
+        <li id=""></li><input type="checkbox" class="sub" name="bootstrap" value="bootstrap" checked><label for="bootstrap">Bootstrap</label></li>
+        <li id=""></li><input type="checkbox" class="sub" name="jquery" value="jquery" checked><label for="jquery">JQuery</label></li>
+        <li id=""></li><input type="checkbox" class="sub" name="sass" value="sass" checked><label for="sass">SASS</label></li>
+        <li id=""></li><input type="checkbox" class="sub" name="react" value="react"><label for="react">React</label></li>
+        <li id=""></li><input type="checkbox" class="sub" name="redux" value="redux"><label for="redux">Redux</label></li>
+      </ul>
+    <h3 onclick="toggle"><input type="checkbox"  name="dataVisualization" value="pgenerator"><label for="dataVisualization"></label>Data Visualization Certification</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Relational Database Certification</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Back End Development and APIs</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Quality Assurance</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Scientific Computing with Python</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Data Analysis with Python</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Information Security</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Machine Learning with Python</h3>
+    <h3 onclick="toggle"><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>College Algebra with Python</h3>
+    <h3><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Foundational C# with Microsoft</h3>
+      <ul class="cert">
+        <li id=""><input type="checkbox" class="sub" name="first-C#" value="first-C#" checked><label for="first-C#">Write Your First Code Using C#</label></li>
+        <li id=""><input type="checkbox" class="sub" name="c#-console" value="first-C#"><label for="c#-console">Create and Run Simple C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="logicC#" value="logicC#"><label for="logicC#">Add Logic to C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="variableData" value="variableData"><label for="variableData">Work with Variable Data in C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="methods" value="methods"><label for="methods">Create Methods in C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="debug-C#" value="debug-C#"><label for="debug-C#">Debug C# Console Applications</label></li>
+        <li id=""><input type="checkbox" class="sub" name="foundational-C#" value="foundational-C#"><label for="foundational-C#">Foundational C# with Microsoft Certification Exam</label></li>
+      </ul>
+    <h3><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert"></label>Legacy Javascript Algorithms and Data Structures</h3>
 
   </details>
 
   <h2>Linkedin Learning</h2>
-
-
+    <details><summary>Certifications</summary>
+      <h3><input type="checkbox"  name="reactNative" value="reactNative"><label for="reactNative">Become a React Native Developer</label></h3>
+      <h3><input type="checkbox"  name="php" value="php><label for="php">PHP for Web Designers</label></h3>
+      <h3><input type="checkbox"  name="UXfoundations" value="UXfoundations" checked><label for="UXfoundations">UX Foundations: Style Guides and Design Systems</label></h3>
+      <h3><input type="checkbox"  name="HTMLessentialTraining" value="pgenerator" checked><label for="HTMLessentialTraining">HTML Essential Training</label></h3>
+      <h3><input type="checkbox"  name="RWDcert" value="pgenerator" checked><label for="RWDcert">Creating a Responsive Web Design</label></h3>
+    </details>
+  <h2>Code Academy</h2>
+  <details><summary>Certifications</summary>
+    <h3><input type="checkbox"  name="RWDcert" value="pgenerator"><label for="RWDcert">Learn Javascript</label></h3>
+  </details>
 </body>
