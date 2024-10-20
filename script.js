@@ -72,6 +72,6 @@ spamFilter = {
 },
 numberSorter = {
   count: 45,
-  finished: 28
+  finished: 30
 }
 ];
